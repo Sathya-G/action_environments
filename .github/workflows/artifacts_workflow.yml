@@ -10,8 +10,8 @@ on:
         description: 'Name of the error document'
         required: true
         default: 'error.html'
-#env:
-  #BUCKET_NAME: website-artifacts
+env:
+  BUCKET_NAME: S3-new
 jobs:
   build:
     runs-on: ubuntu-latest
