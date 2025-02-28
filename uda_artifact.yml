@@ -5,7 +5,7 @@ Resources:
   ArtifactBucket:
     Type: AWS::S3::Bucket
     Properties:
-      BucketName: S3-new
+      BucketName: sbucket-new
       WebsiteConfiguration:
         IndexDocument: index.html
         ErrorDocument: error.html
