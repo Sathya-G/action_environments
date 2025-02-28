@@ -5,7 +5,7 @@ Resources:
   ArtifactBucket:
     Type: AWS::S3::Bucket
     Properties:
-      BucketName: sbucket
+      BucketName: ${self:custom.bucketName}
       WebsiteConfiguration:
         IndexDocument: index.html
         ErrorDocument: error.html

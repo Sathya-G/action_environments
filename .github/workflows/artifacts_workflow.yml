@@ -11,7 +11,7 @@ on:
         required: true
         default: 'error.html'
 env:
-  BUCKET_NAME: sbucket
+  BUCKET_NAME: ${self:custom.bucketName}
 jobs:
   build:
     runs-on: ubuntu-latest
