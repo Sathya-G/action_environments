@@ -5,7 +5,7 @@ Resources:
   ArtifactBucket:
     Type: AWS::S3::Bucket
     Properties:
-      BucketName: ${self:custom.bucketName}
+      BucketName: cld-bucket
       WebsiteConfiguration:
         IndexDocument: index.html
         ErrorDocument: error.html
